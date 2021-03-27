@@ -1,3 +1,7 @@
+## **Used https://github.com/D3vd/Meme_Api for the meme api. Thank you for making it free to use!**
+
+---
+
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
