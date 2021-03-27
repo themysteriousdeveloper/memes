@@ -1,0 +1,15 @@
+<script>
+  import { Link } from 'svelte-routing';
+</script>
+
+<nav>
+  <div class="nav-wrapper">
+    <div class="container">
+      <a href><span class="brand-logo">Meme time</span></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/memes">Funny memes</Link></li>
+      </ul>
+    </div>
+  </div>
+</nav>
