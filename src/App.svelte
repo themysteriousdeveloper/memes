@@ -9,6 +9,7 @@
 	// Navbar import
 	import Navbar from './layouts/navbar.svelte';
 	import Footer from './layouts/footer.svelte';
+	import Socials from './layouts/socials.svelte';
 
 	// Pages import
 	import Home from './pages/Home.svelte';
@@ -31,6 +32,7 @@ main {
 
 <Router>
 	<Navbar />
+	<Socials />
 	<div class="container">
 		<Route path="/" component={Home} />
 		<Route path="/memes" component={Meme} />

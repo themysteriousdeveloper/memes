@@ -1,4 +1,4 @@
-<footer class="page-footer">
+<footer id="footerbot" class="page-footer">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
@@ -21,3 +21,11 @@
     </div>
   </div>
 </footer>
+
+<style>
+  #footerbot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>

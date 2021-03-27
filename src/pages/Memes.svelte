@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { Link } from 'svelte-routing';
 
+//memes.author
 
   // API URL
   var apiBaseurl = 'https://meme-api.herokuapp.com/gimme';
@@ -30,8 +31,9 @@
       <div class="indeterminate"></div>
     </div>
   {:else}
-      <div class="col">
-        <div class="card">
+      <link rel="shortcut icon" href={memes.preview[0]}>
+      <div class="col cyan">
+        <div class="card scale-transition scale-in">
           <div class="card-content">
               <span class="card-title"><a href={memes.postLink}>{memes.title}</a></span>
               <p>by {memes.author}</p>
@@ -44,3 +46,10 @@
       </div>
   {/if}
 </div>
+<div class="spacer"></div>
+
+<style>
+  .spacer {
+    height: 40rem;
+  }
+</style>
